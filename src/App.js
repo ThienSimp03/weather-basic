@@ -36,7 +36,7 @@ const App = () => {
             Search
           </button>
         </div>
-        {data != undefined && (
+        {data !== undefined && (
           <div className="max-w-[700px] m-auto flex-col justify-around flex h-[650px]">
             <div className="mx-40 text-[#fff] flex gap-40">
               <div className="flex flex-col gap-3 text-center">
